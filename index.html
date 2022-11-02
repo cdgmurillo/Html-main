@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+   
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            color: blue;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!--Todo lo que se hace para generar una tabla-->
+    <table style="width: 500px; height: 200px; background-color: darkorange;">
+        <thead>
+            <tr>
+                <th>PRODUCTO</th>
+                <th>PRECIO</th>
+             </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Camiseta del Real Madrid</td>
+                <td>$290.000 COP</td>
+             </tr>
+             <tr>
+                <td>Camiseta visitante de Real Madrid</td>
+                <td>$270.000 COP</td>
+             </tr>
+             <tr>
+                <td>Mini balón de fútbol Real Madrid</td>
+                <td>$70.000 COP</td>
+             </tr>
+        </tbody>
+        <tfoot>
+            <td>TOTAL</td>
+            <td>$630.000 COP</td>
+        </tfoot>
+         
+    </table>
+    <!--ul es una lista no ordenada-->
+    <ul>
+       <li>Elemento 1</li>
+       <li>Elemento 2</li>
+       <li>Elemento 3</li>
+       <li>Elemento 4</li> 
+
+    </ul>
+    <!-- ol es una lista ordenada-->
+    <ol>
+        <li value="14">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li> 
+        <li> 
+            <ol>
+                <li style="list-style-type: lower-roman;">Subelemento 1</li>
+                <li style="list-style-type: lower-roman;">Subelemento 1</li>
+                <li style="list-style-type: lower-roman;">Subelemento 1</li>
+                <li style="list-style-type: lower-roman;">Subelemento 1</li>
+            </ol>
+        </li>
+ 
+     </ol>
+
+
+
+
+    <form action="/formulario" method="post">
+        <fieldset>
+        <legend>DATOS PERSONALES PARA ALIMENTAR NUESTRA BASE DE DATOS</legend>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre" placeholder="Su nombre"/>
+        <br>
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apellido" placeholder="Su apellido"/>
+        <br>
+        <label for="comentario">Comentario</label><br>
+        <textarea cols="40" rows="4" id="comentario" placeholder="ingrese un comentario" name="comentario"></textarea>
+        <br>
+        <button type="button"><img src="img/independiente_santa_fe.jpg" height="50" />
+            <br>Tipo botón</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+    </fieldset>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi segundo heading</h2>
+    <h3>Mi tercer heading</h3>
+    <h4>Mi cuarto heading</h4>
+    <h5>Mi quinto heading</h5>
+    <h6>Chanchito feliz</h6>
+    <p>Chanchito feliz está muy feliz</p>
+    <p>Chanchito triste está muy triste</p>
+    <hr>
+    <h2>Chanchito Carlos</h2>
+    <mark style="color: blue; background-color: orange;">Para resaltar texto</mark>
+    <p>Texto un poco <span style="color:orangered"> más laro que los 
+        anteriores</span> para poder <br>
+        mostrar  la etiqueta de span</p>
+    <!-- Este texto es un comentario y no va a aparecer en la página web-->
+    <a target="_blank" href="https://www.google.com.co">Ir a google</a>
+    <img src="img/independiente_santa_fe.jpg" height="400" />
+    <footer>Aquí ssesupone que escribes lo que iría al final de la página pero no se si como un pie de página o como una frase normal</footer>
+    <br>
+    <h2>Otra vez un título a ver que pasa</h2>
+</body>
+</html>
